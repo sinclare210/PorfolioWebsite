@@ -1,12 +1,15 @@
-import React, { useState } from 'react';
+import React, { useState, useRef } from 'react';
+import emailjs from '@emailjs/browser';
 
 const ContactMe = () => {
+  const form = useRef();
   const [formData, setFormData] = useState({
     name: '',
     email: '',
     message: '',
   });
 
+  // Handling input changes
   const handleChange = (e) => {
     setFormData({
       ...formData,
@@ -14,20 +17,31 @@ const ContactMe = () => {
     });
   };
 
+  // Handling form submission
   const handleSubmit = (e) => {
     e.preventDefault();
 
-    console.log(formData);
+    emailjs
+      .sendForm('service_j86v9oi', 'template_lh2kzgo', form.current, 'cM3_mrsahrItOGul4')
+      .then(
+        () => {
+          console.log('SUCCESS!');
+           setFormData({
+            name: '',
+            email: '',
+            message: '',
+          });
+        },
+        (error) => {
+          console.log('FAILED...', error.text);
+        }
+      );
   };
 
   return (
     <div id="contact" className="min-h-screen flex flex-col justify-center items-center bg-black py-10">
       <h1 className="text-4xl text-yellow-400 font-bold mb-6">Contact Me</h1>
-      <form 
-        onSubmit={handleSubmit} 
-        className="bg-gray-800 p-8 rounded-lg shadow-lg w-full max-w-lg"
-      >
-       
+      <form ref={form} onSubmit={handleSubmit} className="bg-gray-800 p-8 rounded-lg shadow-lg w-full max-w-lg">
         <div className="mb-6">
           <label htmlFor="name" className="block text-sm font-medium text-gray-300 mb-2">
             Name
@@ -43,8 +57,6 @@ const ContactMe = () => {
             placeholder="Enter your name"
           />
         </div>
-
-        
         <div className="mb-6">
           <label htmlFor="email" className="block text-sm font-medium text-gray-300 mb-2">
             Email
@@ -60,8 +72,6 @@ const ContactMe = () => {
             placeholder="Enter your email"
           />
         </div>
-
-       
         <div className="mb-6">
           <label htmlFor="message" className="block text-sm font-medium text-gray-300 mb-2">
             Message
@@ -76,8 +86,6 @@ const ContactMe = () => {
             placeholder="Enter your message"
           ></textarea>
         </div>
-
-      
         <div>
           <button
             type="submit"
