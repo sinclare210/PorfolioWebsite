@@ -26,6 +26,9 @@ const Portfolio = () => {
                     <img className="rounded-lg shadow-lg w-full md:w-3/4 mx-auto" src="public/screencapture-quiz-app-ten-green-22-vercel-app-2024-10-17-05_34_30.png" alt="Quiz App" />
                 </a>
             </div>
+            <div>
+                
+            </div>
         </div>
     </div>
   )
