@@ -2,6 +2,7 @@ import { Button } from "@/components/ui/button"
 import Navbar from "./components/Navbar"
 import Intro from "./components/Intro"
 import Stack from "./components/Stack"
+import Portfolio from "./components/Portfolio"
 
 
 export default function App() {
@@ -10,6 +11,7 @@ export default function App() {
     <Navbar/>
     <Intro/>
     <Stack/>
+    <Portfolio/>
     </div>
   )
 }
