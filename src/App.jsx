@@ -3,6 +3,7 @@ import Navbar from "./components/Navbar"
 import Intro from "./components/Intro"
 import Stack from "./components/Stack"
 import Portfolio from "./components/Portfolio"
+import ContactMe from "./components/ContactMe"
 
 
 export default function App() {
@@ -12,6 +13,7 @@ export default function App() {
     <Intro/>
     <Stack/>
     <Portfolio/>
+    <ContactMe/>
     </div>
   )
 }
