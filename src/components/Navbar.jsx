@@ -17,7 +17,7 @@ const Navbar = () => {
                 <Link 
                   to={menu.link} 
                   key={menu.id} 
-                  className="hover:text-yellow-300 transition duration-200"
+                  className="hover:text-yellow-300 transition duration-200 cursor-pointer"
                   smooth={true} 
                   duration={500}
                 >

@@ -1,9 +1,12 @@
 import React from 'react'
 import { Button } from './ui/button'
+import Stack from './Stack'
+
 
 const Intro = () => {
   return (
-    <div className="flex flex-col-reverse md:flex-row items-center  text-center md:text-left px-4  text-white space-y-8 md:space-y-0 md:space-x-8 mt-28  md:justify-center absolute">
+    <>
+    <div className="flex flex-col-reverse md:flex-row items-center  text-center md:text-left px-4  text-white space-y-8 md:space-y-0 md:space-x-8 mt-28  md:justify-center">
       
       {/* Text Section */}
       <div className="md:w-1/2 mt-5">
@@ -39,6 +42,8 @@ const Intro = () => {
       </div>
       
     </div>
+     
+       </>
   )
 }
 

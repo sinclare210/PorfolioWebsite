@@ -24,7 +24,7 @@ const ResponsiveMobile = ({ open, setOpen }) => {
               <Link
                 to={menu.link} 
                 key={menu.id}
-                className="hover:text-yellow-300 transition duration-200"
+                className="hover:text-yellow-300 transition duration-200 cursor-pointer"
                 smooth={true} 
                 duration={500}
                 onClick={() => setOpen(false)} // Close menu on link click
