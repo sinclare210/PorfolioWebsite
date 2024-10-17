@@ -4,6 +4,7 @@ import Intro from "./components/Intro"
 import Stack from "./components/Stack"
 import Portfolio from "./components/Portfolio"
 import ContactMe from "./components/ContactMe"
+import SocialLinks from "./components/SocialLinks"
 
 
 export default function App() {
@@ -14,6 +15,7 @@ export default function App() {
     <Stack/>
     <Portfolio/>
     <ContactMe/>
+    <SocialLinks/>
     </div>
   )
 }

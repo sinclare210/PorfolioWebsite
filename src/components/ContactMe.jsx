@@ -21,7 +21,7 @@ const ContactMe = () => {
   };
 
   return (
-    <div className="min-h-screen flex flex-col justify-center items-center bg-black py-10">
+    <div id="contact" className="min-h-screen flex flex-col justify-center items-center bg-black py-10">
       <h1 className="text-4xl text-yellow-400 font-bold mb-6">Contact Me</h1>
       <form 
         onSubmit={handleSubmit} 

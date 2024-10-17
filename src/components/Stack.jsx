@@ -14,7 +14,7 @@ const Stack = () => {
   return (
     <>
 
-      <div className='flex flex-col items-center space-y-6 mt-10 bg-black py-10'>
+      <div id="about" className='flex flex-col items-center space-y-6 mt-10 bg-black py-10'>
         <div className='font-bold text-3xl'>
           <h1>What I do</h1>
         </div>

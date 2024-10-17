@@ -2,21 +2,21 @@ export const NavBarMenu = [
     {
         id: 1,
         title: "Home",
-        link:"/"
+        link: "#home"
     },
     {
         id: 2,
         title: "About",
-        link:"/"
+        link: "#about"
     },
     {
         id: 3,
         title: "Portfolio",
-        link:"/"
+        link: "#portfolio"
     },
     {
         id: 4,
-        title: "Clients",
-        link:"/"
+        title: "Contact",
+        link: "#contact"
     },
-]
+];

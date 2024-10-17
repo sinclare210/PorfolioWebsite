@@ -14,15 +14,16 @@ const Navbar = () => {
           <div className="hidden md:block">
             <div className="flex space-x-8 text-lg font-bold">
               {NavBarMenu.map((menu) => (
-                <Link 
-                  to={menu.link} 
+                <a 
+                  href={menu.link} 
                   key={menu.id} 
                   className="hover:text-yellow-300 transition duration-200 cursor-pointer"
                   smooth={true} 
+                  offset={-70} 
                   duration={500}
                 >
                   {menu.title}
-                </Link>
+                </a>
               ))}
             </div>
           </div>

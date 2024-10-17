@@ -1,9 +1,11 @@
 import React from 'react'
 import { Button } from './ui/button'
+import { FontAwesomeIcon } from '@fortawesome/react-fontawesome';
+import { faGithub, faLinkedin, faTwitter } from '@fortawesome/free-brands-svg-icons';
 
 const Portfolio = () => {
   return (
-    <div className='bg-gray-900'>
+    <div id="portfolio" className='bg-gray-900'>
         <div className="py-10 px-6 md:w-3/4 flex flex-col justify-center items-center mx-auto">
             <div className='text-4xl font-bold mb-6 text-center text-yellow-400'>
                 My Past Works
@@ -29,7 +31,7 @@ const Portfolio = () => {
             </div>
             <div className='pt-16 md:pt-16'>
                 <Button className="bg-yellow-400 text-black font-bold rounded-lg px-5 py-8 hover:bg-yellow-300 transition duration-200 flex space-x-2 text-xl">
-                    <img src="/icons8-github-50.png" alt="" className='' />
+                    <FontAwesomeIcon icon={faGithub} size="2x" />
                     <a href="https://github.com/sinclare210" target='_blank'>See Github</a>
                 </Button>
             </div>

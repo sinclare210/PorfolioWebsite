@@ -5,7 +5,7 @@ import Stack from './Stack'
 
 const Intro = () => {
   return (
-    <div className='bg-gray-900'>
+    <div id="home" className='bg-gray-900'>
     <div className="flex flex-col-reverse md:flex-row items-center  text-center md:text-left px-4  text-white space-y-8 md:space-y-0 md:space-x-8 mt-16 md:justify-center">
       
       {/* Text Section */}
