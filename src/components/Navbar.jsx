@@ -34,7 +34,7 @@ const Navbar = () => {
 
           <div>
             <Button className="bg-yellow-400 text-black text-base font-bold rounded-lg px-5 py-2 hover:bg-yellow-300 transition duration-200">
-              Contact Me
+              <a href="#contact">Contact Me</a>
             </Button>
           </div>
         </div>
