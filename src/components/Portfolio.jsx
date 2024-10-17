@@ -28,7 +28,7 @@ const Portfolio = () => {
                 </a>
             </div>
             <div className='py-10 md:py-16'>
-                <Button className="bg-yellow-400 text-black text-base font-bold rounded-lg px-5 py-8 hover:bg-yellow-300 transition duration-200 flex space-x-2">
+                <Button className="bg-yellow-400 text-black font-bold rounded-lg px-5 py-8 hover:bg-yellow-300 transition duration-200 flex space-x-2 text-xl">
                     <img src="/icons8-github-50.png" alt="" className='' />
                     <a href="https://github.com/sinclare210" target='_blank'>See Github</a>
                 </Button>
