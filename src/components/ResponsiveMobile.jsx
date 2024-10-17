@@ -1,5 +1,5 @@
 import React from 'react'
-import { Link } from 'react-scroll'
+
 import { NavBarMenu } from '@/Link'
 
 const ResponsiveMobile = ({ open, setOpen }) => {
@@ -21,8 +21,8 @@ const ResponsiveMobile = ({ open, setOpen }) => {
 
           <div className="flex flex-col space-y-10 text-center text-white text-2xl font-bold uppercase">
             {NavBarMenu.map((menu) => (
-              <Link
-                to={menu.link} 
+              <a
+                href={menu.link} 
                 key={menu.id}
                 className="hover:text-yellow-300 transition duration-200 cursor-pointer"
                 smooth={true} 
@@ -30,7 +30,7 @@ const ResponsiveMobile = ({ open, setOpen }) => {
                 onClick={() => setOpen(false)} // Close menu on link click
               >
                 {menu.title}
-              </Link>
+              </a>
             ))}
           </div>
         </div>
