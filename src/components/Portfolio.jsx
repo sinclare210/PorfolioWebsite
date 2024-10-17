@@ -3,7 +3,7 @@ import React from 'react'
 const Portfolio = () => {
   return (
     <div className='bg-gray-900'>
-        <div className=" py-10 px-6 md:w-3/4 flex flex-col justify-center items-center mx-auto">
+        <div className="py-10 px-6 md:w-3/4 flex flex-col justify-center items-center mx-auto">
             <div className='text-4xl font-bold mb-6 text-center text-yellow-400'>
                 My Past Works
             </div>
