@@ -39,7 +39,7 @@ const ContactMe = () => {
   };
 
   return (
-    <div id="contact" className="min-h-screen flex flex-col justify-center items-center bg-black py-10">
+    <div id="contact" className="min-h-screen flex flex-col justify-center items-center bg-black py-5 md:py-10">
       <h1 className="text-4xl text-yellow-400 font-bold mb-6">Contact Me</h1>
       <form ref={form} onSubmit={handleSubmit} className="bg-gray-800 p-8 rounded-lg shadow-lg w-full max-w-lg">
         <div className="mb-6">
