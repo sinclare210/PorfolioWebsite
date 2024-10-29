@@ -1,6 +1,6 @@
 import React, { useState } from 'react'
 import { Button } from './ui/button'
-import { Link } from 'react-scroll'
+
 import { NavBarMenu } from '@/Link'
 import ResponsiveMobile from './ResponsiveMobile'
 

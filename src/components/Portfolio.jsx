@@ -1,7 +1,7 @@
 import React from 'react'
 import { Button } from './ui/button'
 import { FontAwesomeIcon } from '@fortawesome/react-fontawesome';
-import { faGithub, faLinkedin, faTwitter } from '@fortawesome/free-brands-svg-icons';
+import { faGithub } from '@fortawesome/free-brands-svg-icons';
 
 const Portfolio = () => {
   return (
