@@ -1,4 +1,4 @@
-# Quiz App Creation
+# porfolio Website
 
 ## Table of contents
 
@@ -17,7 +17,7 @@
 
 
 ## Overview
-The Quiz App is a dynamic and interactive application that allows users to test their knowledge on various topics through timed quizzes. With a user-friendly interface and responsive design, it offers a seamless experience across different devices. The app features multiple-choice questions, real-time feedback, and a scoring system that encourages users to engage and improve their skills.
+This is my portfolio website
 
 ### The Project
 
@@ -64,7 +64,7 @@ I need to work on use UseRef() more often
 
 ### Useful resources
 
-- [Timer](https://www.youtube.com/watch?v=gXSC5eMw68o) - the vieo that helped with shadcn installation.
+- [Shadcn Download](https://youtu.be/gXSC5eMw68o?si=ZcUd02Q5brZ0wslG) - the vieo that helped with shadcn installation.
 
 
 ## Author
