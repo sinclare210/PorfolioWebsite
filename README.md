@@ -23,7 +23,7 @@ The Quiz App is a dynamic and interactive application that allows users to test 
 
 Users should be able to:
 
-- See y portflio
+- See my portflio
 - Send me messages via email.
 
 
@@ -48,6 +48,7 @@ Users should be able to:
 - Tailwind CSS
 - JavaScript
 - Shadcn UI
+- React Icons
 
 
 ### What I learned
